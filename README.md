@@ -147,4 +147,6 @@ ohos_executable("A3_gcwgpio") {             //executable是可执行文件。此
 在 vendor/hihope/rk3568/hdf_config/khdf/platform/rk3568_uart_config.hcs  
 在 drivers/hdf_core/adapter/khdf/linux/platform/uart/uart_adapter.c 编写了对接linux驱动的代码
 
+# 尝试NAPI来实现modbus  
+
 
