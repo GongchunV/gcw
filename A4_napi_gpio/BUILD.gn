@@ -15,18 +15,28 @@ import("//build/ohos.gni")
 import("//drivers/hdf_core/adapter/uhdf2/uhdf.gni")
 
 ohos_shared_library("gpio_hdf") {
+<<<<<<< HEAD
   sources = [ "src/napi_gpio.cpp" ]
+=======
+  sources = [ "napi_gpio.cpp" ]
+>>>>>>> ddf7730afad516996fbe85949c0d1d3b0c7cc579
 
   include_dirs = [
     "//drivers/hdf_core/framework/include/platform",
     "//third_party/bounds_checking_function/include",
     "//foundation/ace/napi/interfaces/kits",
+<<<<<<< HEAD
     "//foundation/arkui/napi/interfaces/inner_api/napi",
     "//foundation/arkui/napi/interfaces//kits/napi",
     "//drivers/hdf_core/framework/include/osal",
+=======
+>>>>>>> ddf7730afad516996fbe85949c0d1d3b0c7cc579
   ]
 
-  deps = []
+  deps = [
+    "//drivers/hdf_core/adapter/uhdf2/platform:libhdf_platform",
+    "//foundation/arkui/napi:ace_napi",
+  ]
 
   external_deps = [
     "c_utils:utils",
@@ -43,6 +53,12 @@ ohos_shared_library("gpio_hdf") {
     "-Wno-format-extra-args",
   ]
 
+<<<<<<< HEAD
   part_name = "A4"
   install_enable = true 
+=======
+  relative_install_dir = "module"
+  subsystem_name = "gcw"
+  part_name = "A4"
+>>>>>>> ddf7730afad516996fbe85949c0d1d3b0c7cc579
 }

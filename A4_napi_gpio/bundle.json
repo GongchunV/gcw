@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "name": "@ohos/A4_napi_gpio",
+=======
+    "name": "@ohos/A4",
+>>>>>>> ddf7730afad516996fbe85949c0d1d3b0c7cc579
     "description": "gcw gpio test",
     "version": "3.1",
     "license": "Apache License 2.0",

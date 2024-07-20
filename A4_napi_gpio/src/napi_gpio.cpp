@@ -9,9 +9,12 @@
 
 #include "napi/native_api.h"
 
+<<<<<<< HEAD
 #include "osal_irq.h"           //中断相关接口
 #include "osal_time.h"          //时间相关接口
 
+=======
+>>>>>>> ddf7730afad516996fbe85949c0d1d3b0c7cc579
 
 void gpio_init(){
     printf("gpio_test begin\r\n");
@@ -29,7 +32,11 @@ void gpio_init(){
     }
     
     printf("---------------------------\n");
+<<<<<<< HEAD
 
+=======
+    return 0;
+>>>>>>> ddf7730afad516996fbe85949c0d1d3b0c7cc579
 }
 
 static napi_value Add(napi_env env, napi_callback_info info)
