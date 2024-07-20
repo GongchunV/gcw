@@ -25,7 +25,7 @@
 │   └── src
 └── README.md
 ```
-
+aaaaaaaaa
 # 整体结构
 gcw为子系统，下面每个文件夹为一个部件（component），在build/subsystem_config.json文件中声明子系统，加入构建：  
  "gcw": {
